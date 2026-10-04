@@ -5,7 +5,7 @@ const searchInput = document.querySelector("#search-input");
 const notesList = document.querySelector("#notes-list");
 const noteCount = document.querySelector("#note-count");
 const errorMessage = document.querySelector("#error-message");
-
+ 
 let notes = JSON.parse(localStorage.getItem("quicknotes")) || [];
 
 function saveNotes() {
